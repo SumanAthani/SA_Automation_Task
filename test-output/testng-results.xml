@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-16T14:57:49 CEST" name="Default suite" finished-at="2022-08-16T14:58:17 CEST" duration-ms="28069">
+    <groups>
+      <group name="Smoke">
+        <method signature="LoginPageTest.createUserAcc()[pri:1, instance:com.sa.testscripts.LoginPageTest@71238fc2]" name="createUserAcc" class="com.sa.testscripts.LoginPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-08-16T14:57:49 CEST" name="Default test" finished-at="2022-08-16T14:58:17 CEST" duration-ms="28069">
+      <class name="com.sa.testscripts.LoginPageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.sa.testscripts.LoginPageTest@71238fc2]" started-at="2022-08-16T14:57:49 CEST" name="openBrowser" finished-at="2022-08-16T14:57:56 CEST" duration-ms="6732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="createUserAcc()[pri:1, instance:com.sa.testscripts.LoginPageTest@71238fc2]" started-at="2022-08-16T14:57:56 CEST" name="createUserAcc" finished-at="2022-08-16T14:58:17 CEST" duration-ms="21138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserAcc -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sa.testscripts.LoginPageTest@71238fc2]" started-at="2022-08-16T14:58:17 CEST" name="closeBrowser" finished-at="2022-08-16T14:58:17 CEST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sa.testscripts.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
